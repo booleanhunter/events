@@ -1,0 +1,17 @@
+collections:
+  hg_events:
+    output: false
+timezone: Asia/Calcutta
+webrick:
+  headers:
+    Access-Control-Allow-Origin: '*'
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - tests
+  - requirements.txt
+  - vendor
+  - README.md
